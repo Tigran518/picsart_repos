@@ -22,6 +22,10 @@ int input_num(int num){
 }
 
 int sum_of_digits(int num){
+    if (num == 0)
+    {
+        return 0;
+    }
     if (num < 0)
     {
         num = -num;
